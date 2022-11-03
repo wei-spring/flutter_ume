@@ -10,7 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_ume: ">=1.0.0 <2.0.0"
+  flutter_ume_kit_dio:
+    git:
+      url: https://github.com/wei-spring/flutter_ume.git
+      ref: master
+      
 
   dio: ^4.0.0
 
